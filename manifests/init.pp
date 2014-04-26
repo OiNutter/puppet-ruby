@@ -4,5 +4,5 @@ class ruby {
         ensure => installed,
     }
 
-    include node:build
+    include ruby::build
 }
