@@ -1,4 +1,8 @@
 # This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+class ruby {
+    package { 'rbenv':
+        ensure => installed,
+    }
+
+    include node:build
 }
